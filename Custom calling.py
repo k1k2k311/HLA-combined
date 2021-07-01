@@ -1,4 +1,4 @@
-# "data" format should be allele lists of result from various tools  [2420,3303,2420,4404] 
+# "data" format should be an allele list of results from various tools  [2420,3303,2420,4404] 
 # "hla" should be either "A","B" or "C"  (hla type)
 # model_acc.csv = ( 100- accuracy rate) %
 
