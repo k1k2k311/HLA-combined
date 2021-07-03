@@ -97,11 +97,11 @@ def calc(data,hla):
     cal= calw(data,hla)*calt(data,hla)
     return cal
 
-# Calling / you can set up threshold of percentage of acccuracy here, default:99.9999
+# Calling / you can set up threshold of percentage of acccuracy here, default:98%
 
 def call(data,hla):
 
-    if calc(data,hla)<0.0001:
+    if calc(data,hla)<0.02:
         print(frequent(data))
     else:
         print('Recommended PCR-SBT')
